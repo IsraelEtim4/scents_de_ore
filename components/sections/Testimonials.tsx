@@ -51,8 +51,7 @@ export default function TestimonialSection() {
         {/* Left Arrow */}
         <button
           onClick={prevSlide}
-          className="absolute z-10 left-2 sm:left-0 top-1/2 -translate-y-1/2 px-2 rounded-full border border-black/10
-  hover:border-black hover:bg-black hover:text-white transition"
+          className="absolute z-10 left-2 sm:left-0 top-1/2 -translate-y-1/2 px-2 rounded-full border border-black/10 hover:border-black hover:bg-black hover:text-white transition"
         >
           <ChevronLeft size={18} className="sm:size-10" />
         </button>
@@ -60,8 +59,7 @@ export default function TestimonialSection() {
         {/* Right Arrow */}
         <button
           onClick={nextSlide}
-          className="absolute z-10 right-2 sm:right-0 top-1/2 -translate-y-1/2 px-2 rounded-full border border-black/10
-  hover:border-black hover:bg-black hover:text-white transition"
+          className="absolute z-10 right-2 sm:right-0 top-1/2 -translate-y-1/2 px-2 rounded-full border border-black/10 hover:border-black hover:bg-black hover:text-white transition"
         >
           <ChevronRight size={18} className="sm:size-10" />
         </button>
